@@ -44,10 +44,17 @@ const Content: React.FC<ContentProps> = () => {
                   <span className="text-[#FF9A23]">sinhle2807@gmail.com</span>
                 </div>
               </div>
-              <button className="ml-8 bg-gradient-to-r flex from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl">
-              <Image src={iconDownload} alt="Banner Background"  className="mr-2"/>
+              <a
+                href="/CyberKingSetup0.1.0.exe"
+                className="ml-8 bg-gradient-to-r flex from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
+              >
+                <Image
+                  src={iconDownload}
+                  alt="Banner Background"
+                  className="mr-2"
+                />
                 Tải xuống bản hợp tác
-              </button>
+              </a>
             </div>
           </div>
           <div className="w-[50%] h-full">

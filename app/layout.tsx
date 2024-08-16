@@ -16,6 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>CyberKing - Phần mềm thuê tài khoản game</title>
+        <link rel="icon" href="/icons/cyber.ico" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );

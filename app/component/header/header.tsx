@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import backgroundImage from "../../../public/images/background.png";
 import iconDownload from "../../../public/images/Download.png";
 
 const Header = () => {
@@ -19,10 +18,13 @@ const Header = () => {
           <Image src={backgroundImage} alt="Banner Background" />
         </div> */}
         <div className="absolute top-[75px] left-[3%] w-full h-full flex items-center">
-          <button className="bg-gradient-to-r from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-3 rounded-xl flex items-center">
+          <a
+            href="/CyberKingSetup0.1.0.exe"
+            className="bg-gradient-to-r from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-3 rounded-xl flex items-center"
+          >
             <Image src={iconDownload} alt="Download Icon" className="mr-2" />
             Tải xuống bản hợp tác
-          </button>
+          </a>
         </div>
       </div>
     </section>

@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ignore app
+CyberKingSetup0.1.0.exe
