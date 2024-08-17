@@ -5,7 +5,7 @@ import Image from "next/image";
 const Body = () => {
   return (
     <>
-      <section className="w-full min-h-[650px] overflow-hidden pt-10">
+      <section className="w-full xl:mt-[50px] min-h-[650px] overflow-hidden pt-10">
         <div className="flex justify-center">
           <div className="w-[45%] h-full">
             <Image src={contentImage1} alt="Banner Background" />

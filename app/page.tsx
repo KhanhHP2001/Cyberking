@@ -6,7 +6,7 @@ import Footer from "./component/footer/footer";
 
 export default function Home() {
   return (
-    <main className="bg-[#232534] p-0 m-0">
+    <main className="bg-[#28283b] p-0 m-0">
       <Header />
       <Body />
       <Content />
