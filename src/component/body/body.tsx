@@ -1,6 +1,4 @@
-import React from "react";
-import contentImage1 from "../../../public/images/Thuê game miễn phí123 1.png";
-import Image from "next/image";
+import contentImage1 from "/images/Thuê game miễn phí123 1.png";
 
 const Body = () => {
   return (
@@ -8,7 +6,7 @@ const Body = () => {
       <section className="w-full xl:mt-[50px] min-h-[650px] overflow-hidden pt-10">
         <div className="flex justify-center">
           <div className="w-[45%] h-full">
-            <Image src={contentImage1} alt="Banner Background" />
+            <img src={contentImage1} alt="Banner Background" />
           </div>
           <div className="pl-12 max-w-[36%] pt-24">
             {" "}

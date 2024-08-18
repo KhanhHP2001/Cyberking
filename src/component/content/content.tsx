@@ -1,11 +1,8 @@
 import React from "react";
-import contentImage2 from "../../../public/images/Muc game cua Trang chi tiet sp 1.png";
-import iconDownload from "../../../public/images/Download.png";
-import Image from "next/image";
+import contentImage2 from "/images/Muc game cua Trang chi tiet sp 1.png";
+import iconDownload from "/images/Download.png";
 
-export interface ContentProps {}
-
-const Content: React.FC<ContentProps> = () => {
+const Content: React.FC = () => {
   return (
     <>
       <section className="w-full min-h-[670px] bg-[#1D1E2B] pt-20">
@@ -48,7 +45,7 @@ const Content: React.FC<ContentProps> = () => {
                 href="/CyberKingSetup0.1.0.exe"
                 className="ml-8 bg-gradient-to-r opacity-100 hover:opacity-70 flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
               >
-                <Image
+                <img
                   src={iconDownload}
                   alt="Banner Background"
                   className="h-8 mr-2"
@@ -58,7 +55,7 @@ const Content: React.FC<ContentProps> = () => {
             </div>
           </div>
           <div className="w-[50%] h-full ">
-            <Image src={contentImage2} alt="Banner Background" />
+            <img src={contentImage2} alt="Banner Background" />
           </div>
         </div>
       </section>

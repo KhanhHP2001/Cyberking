@@ -1,6 +1,4 @@
-import Image from "next/image";
-import React from "react";
-import iconDownload from "../../../public/images/Download.png";
+import iconDownload from "/images/Download.png";
 
 const Header = () => {
   return (
@@ -18,7 +16,7 @@ const Header = () => {
           href="/CyberKingSetup0.1.0.exe"
           className="bg-gradient-to-r from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-3 rounded-xl opacity-100 hover:opacity-70 flex items-center"
         >
-          <Image src={iconDownload} alt="Download Icon" className="mr-2" />
+          <img src={iconDownload} alt="Download Icon" className="mr-2" />
           Tải xuống phần mềm
         </a>
       </div>
