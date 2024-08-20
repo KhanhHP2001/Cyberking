@@ -47,7 +47,7 @@ const Content: React.FC = () => {
             </div>
           </div>
           <a
-            href="/CyberKingSetup0.1.0.exe"
+            // href="/CyberKingSetup0.1.0.exe"
             className="hidden ml-8 bg-gradient-to-r text-[12px] xl:text-[22px] opacity-100 hover:opacity-70 md:flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
           >
             <img
