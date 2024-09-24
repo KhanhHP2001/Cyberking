@@ -1,6 +1,6 @@
 import React from "react";
 import contentImage2 from "/images/Muc game cua Trang chi tiet sp 1.png";
-import iconDownload from "/images/Download.png";
+// import iconDownload from "/images/Download.png";
 
 const Content: React.FC = () => {
   return (
@@ -42,11 +42,10 @@ const Content: React.FC = () => {
               Hotline: <span className="text-[#FF9A23]">0901552900</span>
             </div>
             <div className="text-[12px] xl:text-[22px] text-[#cdcfcf] font-medium before:content-['\2022\0020'] before:text-[#cdcfcf]">
-              Email:
-              <span className="text-[#FF9A23]">sinhle2807@gmail.com</span>
+              Email: <span className="text-[#FF9A23]">sinhle2807@gmail.com</span>
             </div>
           </div>
-          <a
+          {/* <a
             // href="/CyberKingSetup0.1.0.exe"
             className="hidden ml-8 bg-gradient-to-r text-[12px] xl:text-[22px] opacity-100 hover:opacity-70 md:flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
           >
@@ -56,7 +55,7 @@ const Content: React.FC = () => {
               className="h-8 mr-2"
             />
             Tải xuống bản hợp tác
-          </a>
+          </a> */}
         </div>
       </section>
     </>
