@@ -11,7 +11,7 @@ const Header = () => {
       >
         <source src="/video/VideoFullBanner 2.mp4" type="video/mp4" />
       </video>
-      <div className=" xl:ml-12 lg:ml-9 xl:mt-36 lg:mt-24 w-full h-full flex items-center z-10">
+      <div className="md:ml-6 xl:ml-12 hidden lg:ml-9 xl:mt-36 lg:mt-24 w-full h-full md:flex items-center z-10">
         <a
           href="https://api.cyberking.app/api/app/merchant/Cyberking-App-merchant-setup.exe"
           className="bg-gradient-to-r from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-3 rounded-xl opacity-100 hover:opacity-70 flex items-center"
