@@ -41,8 +41,7 @@ const Content: React.FC = () => {
                   <span className="text-[#FF9A23]">sinhle2807@gmail.com</span>
                 </div>
               </div>
-              <a
-                href="/CyberKingSetup0.1.0.exe"
+              <div
                 className="ml-8 bg-gradient-to-r opacity-100 hover:opacity-70 flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
               >
                 <img
@@ -50,8 +49,8 @@ const Content: React.FC = () => {
                   alt="Banner Background"
                   className="h-8 mr-2"
                 />
-                Tải xuống bản hợp tác
-              </a>
+                Liên hệ hợp tác
+              </div>
             </div>
           </div>
           <div className="w-[50%] h-full ">
