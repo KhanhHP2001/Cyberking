@@ -31,7 +31,7 @@ const Content: React.FC = () => {
             <p className="text-[22px] text-[#cdcfcf] py-2 font-medium">
               - Liên hệ hợp tác ngay:
             </p>
-            <div className="flex flex-col md:flex-row md:items-center">
+            <div className="flex flex-col lg:flex-row lg:items-center">
               <div className="flex flex-col">
                 <a href="tel:0901552900" target="_blank" className="text-[22px] text-[#cdcfcf] font-medium before:content-['\2022\0020'] before:text-[#cdcfcf]">
                   Hotline: <span className="text-[#FF9A23]">0901552900</span>
@@ -44,7 +44,7 @@ const Content: React.FC = () => {
               <a
                 href="tel:0901552900"
                 target="_blank"
-                className="ml-0 mt-5 md:mt-0 bg-gradient-to-r opacity-100 hover:opacity-70 flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
+                className="ml-0 mt-5 md:mt-0 ml-0 md:ml-5 bg-gradient-to-r opacity-100 hover:opacity-70 flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
               >
                 {/* <img
                   src={iconDownload}
@@ -59,30 +59,7 @@ const Content: React.FC = () => {
             <img src={contentImage2} alt="Banner Background" />
           </div>
         </div>
-        <div className="flex items-center px-4 md:px-0 xl:px-32 justify-start md:justify-around xl:justify-start w-full">
-          <div className="flex flex-col">
-            <p className="text-[12px] xl:text-[22px] text-[#cdcfcf] py-2 font-medium">
-              - Liên hệ hợp tác ngay:
-            </p>
-            <a href="tel:0901552900" target="_blank" className="text-[12px] xl:text-[22px] text-[#cdcfcf] font-medium before:content-['\2022\0020'] before:text-[#cdcfcf]">
-              Hotline: <span className="text-[#FF9A23]">0901552900</span>
-            </a>
-            <a href="mailto:sinhle2807@gmail.com" target="_blank" className="text-[12px] xl:text-[22px] text-[#cdcfcf] font-medium before:content-['\2022\0020'] before:text-[#cdcfcf]">
-              Email: <span className="text-[#FF9A23]">sinhle2807@gmail.com</span>
-            </a>
-          </div>
-          {/* <a
-            // href="/CyberKingSetup0.1.0.exe"
-            className="hidden ml-8 bg-gradient-to-r text-[12px] xl:text-[22px] opacity-100 hover:opacity-70 md:flex justify-center items-center from-[#5e89f2e6] to-[#d88fe2e6] text-white px-4 py-[10px] rounded-xl"
-          >
-            <img
-              src={iconDownload}
-              alt="Banner Background"
-              className="h-8 mr-2"
-            />
-            Tải xuống bản hợp tác
-          </a> */}
-        </div>
+
       </section>
     </>
   );
